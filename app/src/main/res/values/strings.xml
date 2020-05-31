@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="name">Louis Wollenberger</string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="bio">Hi, my name is Louis. I just turned 57.
+        \nI enjoy running with my dog in the morning, mountain biking with my daughter Samantha,
+        \nand golfing with my daughter Jaya.
+        \nWhen I\'m not outdoors, I study android development, read, cook, help with house
+        \nchores, and watch movies. In the evenings, I enjoy a glass of wine with my wife and sitting
+        \n in our beautiful backyard, which we have worked hard on over the years.
+        \n
+    </string>
+    <string name="text_icon">Text Icon</string>
+    <string name="nick_name">Nickname</string>
+</resources>
