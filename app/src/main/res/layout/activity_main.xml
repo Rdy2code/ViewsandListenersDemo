@@ -23,10 +23,18 @@
         style="@style/NameStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
         android:hint="@string/nick_name"
         android:inputType="textPersonName"
         android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/nickname_text"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:background="@color/colorAccent"/>
 
     <Button
         android:id="@+id/done_button"
@@ -38,19 +46,11 @@
         android:fontFamily="@font/roboto"
         android:text="@string/done" />
 
-    <TextView
-        android:id="@+id/nickname_text"
-        style="@style/NameStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textAlignment="center"
-        android:visibility="gone" />
-
     <ImageView
         android:id="@+id/star_image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingTop="@dimen/small_padding"
         android:contentDescription="@string/yellow_star"
         app:srcCompat="@android:drawable/btn_star_big_on" />
 
